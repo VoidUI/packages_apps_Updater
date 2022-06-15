@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017-2022 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.voidui.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -34,16 +35,16 @@ import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.R;
-import com.crdroid.updater.UpdaterReceiver;
-import com.crdroid.updater.UpdatesActivity;
-import com.crdroid.updater.misc.BuildInfoUtils;
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.StringGenerator;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voidui.updater.R;
+import com.voidui.updater.UpdaterReceiver;
+import com.voidui.updater.UpdatesActivity;
+import com.voidui.updater.misc.BuildInfoUtils;
+import com.voidui.updater.misc.Constants;
+import com.voidui.updater.misc.StringGenerator;
+import com.voidui.updater.misc.Utils;
+import com.voidui.updater.model.Update;
+import com.voidui.updater.model.UpdateInfo;
+import com.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

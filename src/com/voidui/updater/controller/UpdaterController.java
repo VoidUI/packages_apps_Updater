@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017-2022 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.voidui.updater.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,12 +26,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.crdroid.updater.UpdatesDbHelper;
-import com.crdroid.updater.download.DownloadClient;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voidui.updater.UpdatesDbHelper;
+import com.voidui.updater.download.DownloadClient;
+import com.voidui.updater.misc.Utils;
+import com.voidui.updater.model.Update;
+import com.voidui.updater.model.UpdateInfo;
+import com.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,20 +14,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.model;
+package com.voidui.updater.misc;
 
-public interface UpdateBaseInfo {
-    String getName();
+import android.os.SystemProperties;
 
-    String getDownloadId();
+public final class BuildInfoUtils {
 
-    long getTimestamp();
+    private BuildInfoUtils() {
+    }
 
-    String getType();
+    public static long getBuildDateTimestamp() {
+        return SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0);
+    }
 
-    String getVersion();
-
-    String getDownloadUrl();
-
-    long getFileSize();
+    public static String getBuildVersion() {
+        return SystemProperties.get(Constants.PROP_BUILD_VERSION);
+    }
 }

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2022 The VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,20 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.misc;
+package com.voidui.updater;
 
-import android.os.SystemProperties;
+import androidx.appcompat.app.AppCompatActivity;
 
-public final class BuildInfoUtils {
+import com.voidui.updater.model.UpdateInfo;
 
-    private BuildInfoUtils() {
-    }
-
-    public static long getBuildDateTimestamp() {
-        return SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0);
-    }
-
-    public static String getBuildVersion() {
-        return SystemProperties.get(Constants.PROP_BUILD_VERSION);
-    }
+public abstract class UpdatesListActivity extends AppCompatActivity {
+    public abstract void exportUpdate(UpdateInfo update);
+    public abstract void showSnackbar(int stringId, int duration);
 }

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017-2022 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.misc;
+package com.voidui.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -33,12 +34,12 @@ import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.crdroid.updater.R;
-import com.crdroid.updater.UpdatesDbHelper;
-import com.crdroid.updater.controller.UpdaterService;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateBaseInfo;
-import com.crdroid.updater.model.UpdateInfo;
+import com.voidui.updater.R;
+import com.voidui.updater.UpdatesDbHelper;
+import com.voidui.updater.controller.UpdaterService;
+import com.voidui.updater.model.Update;
+import com.voidui.updater.model.UpdateBaseInfo;
+import com.voidui.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

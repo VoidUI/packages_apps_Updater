@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017-2022 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.controller;
+package com.voidui.updater.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,11 +24,11 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import com.crdroid.updater.misc.Constants;
-import com.crdroid.updater.misc.FileUtils;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voidui.updater.misc.Constants;
+import com.voidui.updater.misc.FileUtils;
+import com.voidui.updater.misc.Utils;
+import com.voidui.updater.model.UpdateInfo;
+import com.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

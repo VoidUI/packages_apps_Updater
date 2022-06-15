@@ -35,7 +35,7 @@
                 android:paddingBottom="8sp"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="16sp"
-                tools:text="crDroid 15.1" />
+                tools:text="VoidUI 12.1" />
 
             <TextView
                 android:id="@+id/build_date"
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:textSize="14sp"
-                tools:text="29 February 2018" />
+                tools:text="15 June 2022" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"

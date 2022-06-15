@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2022 VoidUI Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,28 +14,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater.model;
+package com.voidui.updater.model;
 
-import java.io.File;
+public interface UpdateBaseInfo {
+    String getName();
 
-public interface UpdateInfo extends UpdateBaseInfo {
-    UpdateStatus getStatus();
+    String getDownloadId();
 
-    int getPersistentStatus();
+    long getTimestamp();
 
-    File getFile();
+    String getType();
+
+    String getVersion();
+
+    String getDownloadUrl();
 
     long getFileSize();
-
-    int getProgress();
-
-    long getEta();
-
-    long getSpeed();
-
-    int getInstallProgress();
-
-    boolean getAvailableOnline();
-
-    boolean getFinalizing();
 }

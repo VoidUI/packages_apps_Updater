@@ -31,7 +31,7 @@
                 android:paddingBottom="16dp"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="56sp"
-                tools:text="crDroid\n18.1" />
+                tools:text="VoidUI\n12.1" />
 
             <TextView
                 android:id="@+id/header_build_version"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="14sp"
-                tools:text="Android 11"/>
+                tools:text="Android 12"/>
 
             <TextView
                 android:id="@+id/header_build_date"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="14sp"
-                tools:text="2022-01-01"/>
+                tools:text="2022-06-01"/>
 
             <TextView
                 android:id="@+id/header_last_check"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="14sp"
-                tools:text="Last checked: 2022-01-01"/>
+                tools:text="Last checked: 2022-06-01"/>
 
         </LinearLayout>
         <LinearLayout
