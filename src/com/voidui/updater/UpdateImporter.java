@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crdroid.updater;
+package com.voidui.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -23,12 +23,12 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import org.json.JSONException;
-import com.crdroid.updater.controller.UpdaterController;
-import com.crdroid.updater.controller.UpdaterService;
-import com.crdroid.updater.misc.Utils;
-import com.crdroid.updater.model.Update;
-import com.crdroid.updater.model.UpdateInfo;
-import com.crdroid.updater.model.UpdateStatus;
+import com.voidui.updater.controller.UpdaterController;
+import com.voidui.updater.controller.UpdaterService;
+import com.voidui.updater.misc.Utils;
+import com.voidui.updater.model.Update;
+import com.voidui.updater.model.UpdateInfo;
+import com.voidui.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;
